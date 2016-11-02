@@ -24,5 +24,3 @@ chmod +x /etc/cron.daily/denypublic
 curl -s -LO https://raw.githubusercontent.com/clegall/QuickBox/master/commands/hostsTrackers
 cat hostsTrackers >> /etc/hosts
   echo "${OK}"
-        esac
-}
